@@ -1,0 +1,10 @@
+
+- name: Check nginx service
+  hosts: servers
+  become: true
+
+  tasks:
+    - name: Ensure nginx is running
+      service:
+        name: "{{service_name}}"
+        state: started

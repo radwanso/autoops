@@ -1,0 +1,1204 @@
+2026-03-26 17:51:23.291619 - Agent started
+2026-03-26 17:51:23.300369 - nginx is already running
+2026-03-26 19:11:35.172385 - Agent started
+2026-03-26 19:11:36.181864 - CPU usage: 0.0%
+2026-03-26 19:12:57.553062 - Agent started
+2026-03-26 19:12:58.563536 - CPU usage: 0.0%
+2026-03-26 19:13:03.937781 - Agent started
+2026-03-26 19:13:04.948544 - CPU usage: 0.0%
+2026-03-26 19:13:49.163813 - Agent started
+2026-03-26 19:13:50.166804 - CPU usage: 0.0%
+2026-03-26 19:15:39.353706 - Agent started
+2026-03-26 19:15:40.360997 - CPU usage: 0.0%
+2026-03-26 19:15:40.410146 - nginx is already running
+2026-03-26 19:30:01.759031 - Agent started
+2026-03-26 19:30:02.762691 - CPU usage: 0.2%
+2026-03-26 19:30:02.777974 - nginx is already running
+2026-03-26 19:31:00.095085 - Agent started
+2026-03-26 19:31:01.097995 - CPU usage: 0.2%
+2026-03-26 19:31:01.122632 - nginx is already running
+2026-03-26 19:32:00.274495 - Agent started
+2026-03-26 19:32:00.372973 - CPU usage: 1.0%
+2026-03-26 19:32:00.383012 - nginx is already running
+2026-03-26 19:33:00.573381 - Agent started
+2026-03-26 19:33:01.603244 - CPU usage: 0.0%
+2026-03-26 19:33:01.630573 - nginx is already running
+2026-03-26 19:34:01.894733 - Agent started
+2026-03-26 19:34:02.898698 - CPU usage: 0.0%
+2026-03-26 19:34:02.908994 - nginx is already running
+2026-03-26 19:35:00.144208 - Agent started
+2026-03-26 19:35:01.148417 - CPU usage: 0.0%
+2026-03-26 19:35:01.155867 - nginx is already running
+2026-03-26 19:36:01.517302 - Agent started
+2026-03-26 19:36:02.518308 - CPU usage: 0.7%
+2026-03-26 19:36:02.528184 - nginx is already running
+2026-03-26 19:37:01.813947 - Agent started
+2026-03-26 19:37:02.816432 - CPU usage: 0.0%
+2026-03-26 19:37:02.826877 - nginx is already running
+2026-03-26 19:38:00.105311 - Agent started
+2026-03-26 19:38:01.145137 - CPU usage: 0.2%
+2026-03-26 19:38:01.169676 - nginx is already running
+2026-03-26 19:39:01.459400 - Agent started
+2026-03-26 19:39:02.473900 - CPU usage: 0.2%
+2026-03-26 19:39:02.484165 - nginx is already running
+2026-03-26 19:40:01.781121 - Agent started
+2026-03-26 19:40:02.785306 - CPU usage: 0.2%
+2026-03-26 19:40:02.807979 - nginx is already running
+2026-03-26 19:41:00.080224 - Agent started
+2026-03-26 19:41:01.093109 - CPU usage: 0.2%
+2026-03-26 19:41:01.102803 - nginx is already running
+2026-03-26 19:42:01.389591 - Agent started
+2026-03-26 19:42:02.403383 - CPU usage: 0.0%
+2026-03-26 19:42:02.412741 - nginx is already running
+2026-03-26 19:43:01.717891 - Agent started
+2026-03-26 19:43:02.726422 - CPU usage: 0.0%
+2026-03-26 19:43:02.736348 - nginx is already running
+2026-03-26 19:44:00.900315 - Agent started
+2026-03-26 19:44:01.911589 - CPU usage: 0.2%
+2026-03-26 19:44:01.918710 - nginx is already running
+2026-03-26 19:45:00.249178 - Agent started
+2026-03-26 19:45:01.273265 - CPU usage: 0.2%
+2026-03-26 19:45:01.289374 - nginx is already running
+2026-03-26 19:46:01.667597 - Agent started
+2026-03-26 19:46:02.672289 - CPU usage: 0.2%
+2026-03-26 19:46:02.683036 - nginx is already running
+2026-03-26 19:47:01.977646 - Agent started
+2026-03-26 19:47:03.007299 - CPU usage: 0.2%
+2026-03-26 19:47:03.019715 - nginx is already running
+2026-03-26 19:48:01.324470 - Agent started
+2026-03-26 19:48:02.331061 - CPU usage: 0.0%
+2026-03-26 19:48:02.346725 - nginx is already running
+2026-03-26 19:49:01.721096 - Agent started
+2026-03-26 19:49:02.733079 - CPU usage: 0.2%
+2026-03-26 19:49:02.763974 - nginx is already running
+2026-03-26 19:50:02.034886 - Agent started
+2026-03-26 19:50:03.049200 - CPU usage: 0.0%
+2026-03-26 19:50:03.059651 - nginx is already running
+2026-03-26 19:51:01.392407 - Agent started
+2026-03-26 19:51:02.400906 - CPU usage: 0.2%
+2026-03-26 19:51:02.412000 - nginx is already running
+2026-03-26 19:52:01.732414 - Agent started
+2026-03-26 19:52:02.752452 - CPU usage: 0.2%
+2026-03-26 19:52:02.767017 - nginx is already running
+2026-03-26 19:53:02.063128 - Agent started
+2026-03-26 19:53:03.069744 - CPU usage: 0.0%
+2026-03-26 19:53:03.080836 - nginx is already running
+2026-03-26 19:54:01.378087 - Agent started
+2026-03-26 19:54:02.379704 - CPU usage: 0.3%
+2026-03-26 19:54:02.386232 - nginx is already running
+2026-03-26 19:55:01.682216 - Agent started
+2026-03-26 19:55:02.684783 - CPU usage: 0.0%
+2026-03-26 19:55:02.697521 - nginx is already running
+2026-03-26 19:56:00.877262 - Agent started
+2026-03-26 19:56:01.879850 - CPU usage: 0.3%
+2026-03-26 19:56:01.887520 - nginx is already running
+2026-03-26 19:57:00.164047 - Agent started
+2026-03-26 19:57:01.166613 - CPU usage: 0.0%
+2026-03-26 19:57:01.173479 - nginx is already running
+2026-03-26 19:58:01.513538 - Agent started
+2026-03-26 19:58:02.517428 - CPU usage: 0.2%
+2026-03-26 19:58:02.525303 - nginx is already running
+2026-03-26 19:59:01.845988 - Agent started
+2026-03-26 19:59:02.847331 - CPU usage: 0.2%
+2026-03-26 19:59:02.860517 - nginx is already running
+2026-03-26 20:00:00.129584 - Agent started
+2026-03-26 20:00:01.132792 - CPU usage: 0.0%
+2026-03-26 20:00:01.149738 - nginx is already running
+2026-03-26 20:01:01.477887 - Agent started
+2026-03-26 20:01:02.482000 - CPU usage: 0.0%
+2026-03-26 20:01:02.490643 - nginx is already running
+2026-03-26 20:02:01.804963 - Agent started
+2026-03-26 20:02:02.832250 - CPU usage: 0.2%
+2026-03-26 20:02:02.858492 - nginx is already running
+2026-03-26 20:03:00.201827 - Agent started
+2026-03-26 20:03:01.203965 - CPU usage: 0.0%
+2026-03-26 20:03:01.224360 - nginx is already running
+2026-03-26 20:04:01.612788 - Agent started
+2026-03-26 20:04:02.622076 - CPU usage: 0.2%
+2026-03-26 20:04:02.641448 - nginx is already running
+2026-03-26 20:05:01.964269 - Agent started
+2026-03-26 20:05:02.966375 - CPU usage: 0.2%
+2026-03-26 20:05:02.992955 - nginx is already running
+2026-03-26 20:06:01.340757 - Agent started
+2026-03-26 20:06:02.356353 - CPU usage: 0.2%
+2026-03-26 20:06:02.381038 - nginx is already running
+2026-03-26 20:07:00.602455 - Agent started
+2026-03-26 20:07:01.621333 - CPU usage: 0.0%
+2026-03-26 20:07:01.639905 - nginx is NOT running >> fixing...
+2026-03-26 20:07:05.222217 - Playbook executed
+2026-03-26 20:08:00.447440 - Agent started
+2026-03-26 20:08:01.475901 - CPU usage: 0.2%
+2026-03-26 20:08:01.503865 - nginx is NOT running >> fixing...
+2026-03-26 20:08:04.558083 - Playbook executed
+2026-03-26 20:09:00.868087 - Agent started
+2026-03-26 20:09:01.896138 - CPU usage: 0.0%
+2026-03-26 20:09:01.903974 - nginx is NOT running >> fixing...
+2026-03-26 20:09:05.237215 - Playbook executed
+2026-03-26 20:10:01.802566 - Agent started
+2026-03-26 20:10:02.807240 - CPU usage: 0.0%
+2026-03-26 20:10:02.840335 - nginx is NOT running >> fixing...
+2026-03-26 20:10:06.201104 - Playbook executed
+2026-03-26 20:11:01.534480 - Agent started
+2026-03-26 20:11:02.535546 - CPU usage: 0.5%
+2026-03-26 20:11:02.572129 - nginx is NOT running >> fixing...
+2026-03-26 20:11:05.956058 - Playbook executed
+2026-03-26 20:12:00.323783 - Agent started
+2026-03-26 20:12:01.330054 - CPU usage: 0.0%
+2026-03-26 20:12:01.342118 - nginx is NOT running >> fixing...
+2026-03-26 20:12:04.327288 - Playbook executed
+2026-03-26 20:13:01.670933 - Agent started
+2026-03-26 20:13:02.682900 - CPU usage: 0.0%
+2026-03-26 20:13:02.701172 - nginx is NOT running >> fixing...
+2026-03-26 20:13:05.448312 - Playbook executed
+2026-03-26 20:14:01.812336 - Agent started
+2026-03-26 20:14:02.814599 - CPU usage: 0.2%
+2026-03-26 20:14:02.841766 - nginx is NOT running >> fixing...
+2026-03-26 20:14:05.810121 - Playbook executed
+2026-03-26 20:15:00.097094 - Agent started
+2026-03-26 20:15:01.099241 - CPU usage: 0.2%
+2026-03-26 20:15:01.120348 - nginx is NOT running >> fixing...
+2026-03-26 20:15:03.802881 - Playbook executed
+2026-03-26 20:16:00.153262 - Agent started
+2026-03-26 20:16:01.173343 - CPU usage: 0.0%
+2026-03-26 20:16:01.180133 - nginx is NOT running >> fixing...
+2026-03-26 20:16:04.177801 - Playbook executed
+2026-03-26 20:17:01.542291 - Agent started
+2026-03-26 20:17:02.545977 - CPU usage: 0.2%
+2026-03-26 20:17:02.564302 - nginx is NOT running >> fixing...
+2026-03-26 20:17:05.638952 - Playbook executed
+2026-03-26 20:18:01.968741 - Agent started
+2026-03-26 20:18:02.977496 - CPU usage: 0.0%
+2026-03-26 20:18:02.985268 - nginx is NOT running >> fixing...
+2026-03-26 20:18:06.611037 - Playbook executed
+2026-03-26 20:19:00.827598 - Agent started
+2026-03-26 20:19:01.832107 - CPU usage: 0.0%
+2026-03-26 20:19:01.855410 - nginx is NOT running >> fixing...
+2026-03-26 20:19:03.864559 - Playbook executed
+2026-03-26 20:20:01.085902 - Agent started
+2026-03-26 20:20:02.089830 - CPU usage: 0.3%
+2026-03-26 20:20:02.109735 - nginx is NOT running >> fixing...
+2026-03-26 20:20:05.515737 - Playbook executed
+2026-03-26 20:21:00.735261 - Agent started
+2026-03-26 20:21:01.742096 - CPU usage: 0.2%
+2026-03-26 20:21:01.758188 - nginx is NOT running >> fixing...
+2026-03-26 20:21:04.418725 - Playbook executed
+2026-03-26 20:22:01.744101 - Agent started
+2026-03-26 20:22:02.753171 - CPU usage: 0.0%
+2026-03-26 20:22:02.782672 - nginx is NOT running >> fixing...
+2026-03-26 20:22:05.591552 - Playbook executed
+2026-03-26 20:22:49.254518 - Agent started
+2026-03-26 20:22:50.284018 - CPU usage: 0.2%
+2026-03-26 20:22:50.307365 - nginx is NOT running >> fixing...
+2026-03-26 20:22:54.594059 - Playbook executed
+2026-03-26 20:23:01.982770 - Agent started
+2026-03-26 20:23:02.991269 - CPU usage: 0.0%
+2026-03-26 20:23:03.001225 - nginx is NOT running >> fixing...
+2026-03-26 20:23:05.585550 - Playbook executed
+2026-03-26 20:23:07.238578 - Agent started
+2026-03-26 20:23:08.255200 - CPU usage: 0.0%
+2026-03-26 20:23:08.261888 - nginx is NOT running >> fixing...
+2026-03-26 20:23:13.353018 - Playbook executed
+2026-03-26 20:24:01.933799 - Agent started
+2026-03-26 20:24:02.936020 - CPU usage: 0.3%
+2026-03-26 20:24:02.961081 - nginx is NOT running >> fixing...
+2026-03-26 20:24:05.534812 - Playbook executed
+2026-03-26 20:25:01.835698 - Agent started
+2026-03-26 20:25:02.855079 - CPU usage: 0.2%
+2026-03-26 20:25:02.863672 - nginx is NOT running >> fixing...
+2026-03-26 20:25:06.070400 - Playbook executed
+2026-03-26 20:25:48.984960 - Agent started
+2026-03-26 20:25:49.987794 - CPU usage: 0.2%
+2026-03-26 20:25:49.999396 - nginx is NOT running >> fixing...
+2026-03-26 20:25:53.102869 - Playbook executed
+2026-03-26 20:26:01.403753 - Agent started
+2026-03-26 20:26:02.409605 - CPU usage: 0.0%
+2026-03-26 20:26:02.422166 - nginx is NOT running >> fixing...
+2026-03-26 20:26:05.383762 - Playbook executed
+2026-03-26 20:27:01.713918 - Agent started
+2026-03-26 20:27:02.735412 - CPU usage: 0.0%
+2026-03-26 20:27:02.745095 - nginx is NOT running >> fixing...
+2026-03-26 20:27:05.317648 - Playbook executed
+2026-03-26 20:28:01.613760 - Agent started
+2026-03-26 20:28:02.621267 - CPU usage: 0.2%
+2026-03-26 20:28:02.646140 - nginx is NOT running >> fixing...
+2026-03-26 20:28:05.199924 - Playbook executed
+2026-03-26 20:29:01.540282 - Agent started
+2026-03-26 20:29:02.551261 - CPU usage: 0.0%
+2026-03-26 20:29:02.559385 - nginx is NOT running >> fixing...
+2026-03-26 20:29:05.719736 - Playbook executed
+2026-03-26 20:30:00.919615 - Agent started
+2026-03-26 20:30:01.922907 - CPU usage: 0.2%
+2026-03-26 20:30:01.932554 - nginx is NOT running >> fixing...
+2026-03-26 20:30:03.626984 - Playbook executed
+2026-03-26 20:31:00.798639 - Agent started
+2026-03-26 20:31:01.800969 - CPU usage: 0.0%
+2026-03-26 20:31:01.811023 - nginx is NOT running >> fixing...
+2026-03-26 20:31:04.362403 - Playbook executed
+2026-03-26 20:32:01.731947 - Agent started
+2026-03-26 20:32:02.739769 - CPU usage: 0.5%
+2026-03-26 20:32:02.749028 - nginx is NOT running >> fixing...
+2026-03-26 20:32:05.369130 - Playbook executed
+2026-03-26 20:33:01.721299 - Agent started
+2026-03-26 20:33:02.732096 - CPU usage: 0.0%
+2026-03-26 20:33:02.743963 - nginx is NOT running >> fixing...
+2026-03-26 20:33:03.809556 - Playbook executed
+2026-03-26 20:33:35.222133 - Agent started
+2026-03-26 20:33:36.251070 - CPU usage: 0.2%
+2026-03-26 20:33:36.261062 - nginx is NOT running >> fixing...
+2026-03-26 20:33:37.554401 - Playbook executed
+2026-03-26 20:34:00.154206 - Agent started
+2026-03-26 20:34:01.156315 - CPU usage: 0.0%
+2026-03-26 20:34:01.166770 - nginx is NOT running >> fixing...
+2026-03-26 20:34:02.253059 - Playbook executed
+2026-03-26 20:35:01.646452 - Agent started
+2026-03-26 20:35:02.652567 - CPU usage: 0.2%
+2026-03-26 20:35:02.683307 - nginx is NOT running >> fixing...
+2026-03-26 20:35:05.373098 - Playbook executed
+2026-03-26 20:35:11.314233 - Agent started
+2026-03-26 20:35:12.343535 - CPU usage: 0.2%
+2026-03-26 20:35:12.364266 - nginx is already running
+2026-03-26 20:36:01.759599 - Agent started
+2026-03-26 20:36:02.787416 - CPU usage: 0.2%
+2026-03-26 20:36:02.794496 - nginx is already running
+2026-03-26 20:37:00.154264 - Agent started
+2026-03-26 20:37:01.157184 - CPU usage: 0.2%
+2026-03-26 20:37:01.166835 - nginx is already running
+2026-03-27 10:22:00.537909 - Agent started
+2026-03-27 10:22:01.540317 - CPU usage: 0.5%
+2026-03-27 10:22:01.551753 - nginx is already running
+2026-03-27 10:23:01.754016 - Agent started
+2026-03-27 10:23:01.987990 - Agent started
+2026-03-27 10:23:02.761461 - CPU usage: 2.0%
+2026-03-27 10:23:02.789916 - nginx is already running
+2026-03-27 10:23:03.000938 - CPU usage: 1.5%
+2026-03-27 10:23:03.013446 - nginx is already running
+2026-03-27 10:24:02.283917 - Agent started
+2026-03-27 10:24:03.286004 - CPU usage: 0.2%
+2026-03-27 10:24:03.297496 - nginx is already running
+2026-03-27 10:25:01.278630 - Agent started
+2026-03-27 10:25:02.283117 - CPU usage: 0.0%
+2026-03-27 10:25:02.290927 - nginx is already running
+2026-03-27 10:26:01.363363 - Agent started
+2026-03-27 10:26:02.378224 - CPU usage: 0.0%
+2026-03-27 10:26:02.384714 - nginx is already running
+2026-03-27 10:27:01.401255 - Agent started
+2026-03-27 10:27:02.405840 - CPU usage: 24.9%
+2026-03-27 10:27:02.413998 - nginx is already running
+2026-03-27 10:28:01.570497 - Agent started
+2026-03-27 10:28:02.570962 - CPU usage: 20.1%
+2026-03-27 10:28:02.580663 - nginx is already running
+2026-03-27 10:29:01.459913 - Agent started
+2026-03-27 10:29:02.519249 - CPU usage: 0.2%
+2026-03-27 10:29:02.549213 - nginx is already running
+2026-03-27 10:30:01.562104 - Agent started
+2026-03-27 10:30:02.592049 - CPU usage: 0.2%
+2026-03-27 10:30:02.606158 - nginx is already running
+2026-03-27 10:31:01.600173 - Agent started
+2026-03-27 10:31:02.601879 - CPU usage: 0.2%
+2026-03-27 10:31:02.635583 - nginx is already running
+2026-03-27 10:32:01.653753 - Agent started
+2026-03-27 10:32:02.654627 - CPU usage: 0.5%
+2026-03-27 10:32:02.674615 - nginx is already running
+2026-03-27 10:33:02.044991 - Agent started
+2026-03-27 10:33:03.055918 - CPU usage: 0.0%
+2026-03-27 10:33:03.089559 - nginx is already running
+2026-03-27 10:34:01.266160 - Agent started
+2026-03-27 10:34:02.290748 - CPU usage: 0.0%
+2026-03-27 10:34:02.299945 - nginx is already running
+2026-03-27 10:35:01.455623 - Agent started
+2026-03-27 10:35:02.470589 - CPU usage: 0.2%
+2026-03-27 10:35:02.500886 - nginx is already running
+2026-03-27 10:36:01.633567 - Agent started
+2026-03-27 10:36:02.635602 - CPU usage: 0.3%
+2026-03-27 10:36:02.648041 - nginx is already running
+2026-03-27 10:37:01.720624 - Agent started
+2026-03-27 10:37:02.722698 - CPU usage: 0.0%
+2026-03-27 10:37:02.731199 - nginx is already running
+2026-03-27 10:42:01.165454 - Agent started
+2026-03-27 10:42:02.166502 - CPU usage: 0.2%
+2026-03-27 10:42:02.178107 - nginx is already running
+2026-03-27 10:42:30.042609 - Agent started
+2026-03-27 10:42:31.074015 - CPU usage: 0.0%
+2026-03-27 10:42:31.086607 - nginx is already running
+2026-03-27 10:43:01.863152 - Agent started
+2026-03-27 10:43:01.095235 - CPU usage: 3.0%
+2026-03-27 10:43:01.109513 - nginx is already running
+2026-03-27 10:44:00.535826 - Agent started
+2026-03-27 10:44:01.536465 - CPU usage: 0.2%
+2026-03-27 10:44:01.546579 - nginx is already running
+2026-03-27 10:45:01.340096 - Agent started
+2026-03-27 10:45:02.347613 - CPU usage: 0.5%
+2026-03-27 10:45:02.362349 - nginx is already running
+2026-03-27 10:46:01.252878 - Agent started
+2026-03-27 10:46:02.262368 - CPU usage: 13.5%
+2026-03-27 10:46:02.283460 - nginx is already running
+2026-03-27 10:47:01.831208 - Agent started
+2026-03-27 10:47:02.836882 - CPU usage: 0.2%
+2026-03-27 10:47:02.846708 - nginx is already running
+2026-03-27 10:48:01.498316 - Agent started
+2026-03-27 10:48:02.499072 - CPU usage: 0.0%
+2026-03-27 10:48:02.509655 - nginx is already running
+2026-03-27 10:49:01.178975 - Agent started
+2026-03-27 10:49:02.180529 - CPU usage: 0.0%
+2026-03-27 10:49:02.200119 - nginx is already running
+2026-03-27 10:50:01.874473 - Agent started
+2026-03-27 10:50:02.890491 - CPU usage: 0.0%
+2026-03-27 10:50:02.914487 - nginx is already running
+2026-03-27 10:51:01.720384 - Agent started
+2026-03-27 10:51:02.724825 - CPU usage: 0.0%
+2026-03-27 10:51:02.766959 - nginx is already running
+2026-03-27 10:52:01.152562 - Agent started
+2026-03-27 10:52:02.166402 - CPU usage: 0.0%
+2026-03-27 10:52:02.174882 - nginx is already running
+2026-03-27 10:53:01.394151 - Agent started
+2026-03-27 10:53:02.420489 - CPU usage: 0.0%
+2026-03-27 10:53:02.443993 - nginx is already running
+2026-03-27 10:54:01.849971 - Agent started
+2026-03-27 10:54:02.866188 - CPU usage: 0.2%
+2026-03-27 10:54:02.927740 - nginx is already running
+2026-03-27 10:55:01.858481 - Agent started
+2026-03-27 10:55:02.865240 - CPU usage: 0.0%
+2026-03-27 10:55:02.892319 - nginx is already running
+2026-03-27 10:56:01.117650 - Agent started
+2026-03-27 10:56:02.134892 - CPU usage: 0.2%
+2026-03-27 10:56:02.163550 - nginx is already running
+2026-03-27 10:57:01.274948 - Agent started
+2026-03-27 10:57:02.283403 - CPU usage: 0.0%
+2026-03-27 10:57:02.290516 - nginx is already running
+2026-03-27 10:58:01.383711 - Agent started
+2026-03-27 10:58:02.384355 - CPU usage: 0.0%
+2026-03-27 10:58:02.390799 - nginx is already running
+2026-03-27 10:59:00.495029 - Agent started
+2026-03-27 10:59:01.501890 - CPU usage: 0.2%
+2026-03-27 10:59:01.527773 - nginx is already running
+2026-03-27 11:00:00.148806 - Agent started
+2026-03-27 11:00:01.176581 - CPU usage: 0.0%
+2026-03-27 11:00:01.202787 - nginx is already running
+2026-03-27 11:01:01.309089 - Agent started
+2026-03-27 11:01:02.319570 - CPU usage: 0.2%
+2026-03-27 11:01:02.329549 - nginx is already running
+2026-03-27 11:02:01.237563 - Agent started
+2026-03-27 11:02:02.254200 - CPU usage: 0.0%
+2026-03-27 11:02:02.278060 - nginx is already running
+2026-03-27 11:03:01.266189 - Agent started
+2026-03-27 11:03:02.274292 - CPU usage: 0.7%
+2026-03-27 11:03:02.297812 - nginx is already running
+2026-03-27 11:04:01.114321 - Agent started
+2026-03-27 11:04:02.127296 - CPU usage: 0.0%
+2026-03-27 11:04:02.145412 - nginx is already running
+2026-03-27 11:05:01.231250 - Agent started
+2026-03-27 11:05:02.233080 - CPU usage: 0.2%
+2026-03-27 11:05:02.246547 - nginx is already running
+2026-03-27 11:06:01.351557 - Agent started
+2026-03-27 11:06:02.376195 - CPU usage: 0.2%
+2026-03-27 11:06:02.434062 - nginx is already running
+2026-03-27 11:07:01.393780 - Agent started
+2026-03-27 11:07:02.400928 - CPU usage: 0.2%
+2026-03-27 11:07:02.427607 - nginx is already running
+2026-03-27 11:08:01.274750 - Agent started
+2026-03-27 11:08:02.284719 - CPU usage: 0.0%
+2026-03-27 11:08:02.309380 - nginx is already running
+2026-03-27 11:09:01.187653 - Agent started
+2026-03-27 11:09:02.194791 - CPU usage: 0.0%
+2026-03-27 11:09:02.203207 - nginx is already running
+2026-03-27 11:10:01.174018 - Agent started
+2026-03-27 11:10:02.176272 - CPU usage: 0.2%
+2026-03-27 11:10:02.191433 - nginx is already running
+2026-03-27 11:11:01.121524 - Agent started
+2026-03-27 11:11:02.130172 - CPU usage: 0.2%
+2026-03-27 11:11:02.137997 - nginx is already running
+2026-03-27 11:12:02.011444 - Agent started
+2026-03-27 11:12:03.015429 - CPU usage: 0.0%
+2026-03-27 11:12:03.023951 - nginx is already running
+2026-03-27 11:13:01.930231 - Agent started
+2026-03-27 11:13:02.934482 - CPU usage: 0.5%
+2026-03-27 11:13:02.960256 - nginx is already running
+2026-03-27 11:14:01.804379 - Agent started
+2026-03-27 11:14:02.811565 - CPU usage: 0.7%
+2026-03-27 11:14:02.821881 - nginx is already running
+2026-03-27 11:15:01.613006 - Agent started
+2026-03-27 11:15:02.613783 - CPU usage: 0.0%
+2026-03-27 11:15:02.623031 - nginx is already running
+2026-03-27 11:16:01.449946 - Agent started
+2026-03-27 11:16:02.451319 - CPU usage: 0.5%
+2026-03-27 11:16:02.463695 - nginx is already running
+2026-03-27 11:17:01.187378 - Agent started
+2026-03-27 11:17:02.189841 - CPU usage: 0.2%
+2026-03-27 11:17:02.208521 - nginx is already running
+2026-03-27 11:18:02.056424 - Agent started
+2026-03-27 11:18:03.059198 - CPU usage: 0.0%
+2026-03-27 11:18:03.078458 - nginx is already running
+2026-03-27 11:19:01.796105 - Agent started
+2026-03-27 11:19:02.835646 - CPU usage: 0.2%
+2026-03-27 11:19:02.859136 - nginx is already running
+2026-03-27 11:20:01.716508 - Agent started
+2026-03-27 11:20:02.735668 - CPU usage: 0.2%
+2026-03-27 11:20:02.745044 - nginx is already running
+2026-03-27 11:21:01.532324 - Agent started
+2026-03-27 11:21:02.537311 - CPU usage: 0.2%
+2026-03-27 11:21:02.560326 - nginx is already running
+2026-03-27 11:22:01.296308 - Agent started
+2026-03-27 11:22:02.335516 - CPU usage: 0.2%
+2026-03-27 11:22:02.360719 - nginx is already running
+2026-03-27 11:23:00.126515 - Agent started
+2026-03-27 11:23:01.155092 - CPU usage: 0.2%
+2026-03-27 11:23:01.174547 - nginx is already running
+2026-03-27 11:24:01.924334 - Agent started
+2026-03-27 11:24:02.942990 - CPU usage: 0.0%
+2026-03-27 11:24:02.968396 - nginx is already running
+2026-03-27 11:25:00.372057 - Agent started
+2026-03-27 11:25:01.376440 - CPU usage: 0.2%
+2026-03-27 11:25:01.408777 - nginx is already running
+2026-03-27 11:26:01.180871 - Agent started
+2026-03-27 11:26:02.217033 - CPU usage: 0.2%
+2026-03-27 11:26:02.229829 - nginx is already running
+2026-03-27 11:27:02.012602 - Agent started
+2026-03-27 11:27:03.045250 - CPU usage: 0.5%
+2026-03-27 11:27:03.052049 - nginx is already running
+2026-03-27 11:28:01.727707 - Agent started
+2026-03-27 11:28:02.782751 - CPU usage: 0.0%
+2026-03-27 11:28:02.790092 - nginx is already running
+2026-03-27 11:29:01.472223 - Agent started
+2026-03-27 11:29:02.522794 - CPU usage: 0.2%
+2026-03-27 11:29:02.546834 - nginx is already running
+2026-03-27 11:30:01.389691 - Agent started
+2026-03-27 11:30:02.395376 - CPU usage: 0.2%
+2026-03-27 11:30:02.421488 - nginx is already running
+2026-03-27 11:31:01.172547 - Agent started
+2026-03-27 11:31:02.187946 - CPU usage: 0.2%
+2026-03-27 11:31:02.218591 - nginx is already running
+2026-03-27 11:32:01.943738 - Agent started
+2026-03-27 11:32:02.951033 - CPU usage: 0.2%
+2026-03-27 11:32:02.979327 - nginx is already running
+2026-03-27 11:33:01.637879 - Agent started
+2026-03-27 11:33:02.643935 - CPU usage: 0.0%
+2026-03-27 11:33:02.655791 - nginx is already running
+2026-03-27 11:34:01.294248 - Agent started
+2026-03-27 11:34:02.296411 - CPU usage: 0.2%
+2026-03-27 11:34:02.320421 - nginx is already running
+2026-03-27 11:35:02.014645 - Agent started
+2026-03-27 11:35:03.024932 - CPU usage: 0.2%
+2026-03-27 11:35:03.031907 - nginx is already running
+2026-03-27 11:36:01.649713 - Agent started
+2026-03-27 11:36:02.658076 - CPU usage: 0.2%
+2026-03-27 11:36:02.687815 - nginx is already running
+2026-03-27 11:37:01.381639 - Agent started
+2026-03-27 11:37:02.414711 - CPU usage: 0.0%
+2026-03-27 11:37:02.432078 - nginx is already running
+2026-03-27 11:38:02.051345 - Agent started
+2026-03-27 11:38:03.093927 - CPU usage: 0.2%
+2026-03-27 11:38:03.116139 - nginx is already running
+2026-03-27 11:39:01.740315 - Agent started
+2026-03-27 11:39:02.754425 - CPU usage: 0.2%
+2026-03-27 11:39:02.780175 - nginx is already running
+2026-03-27 11:40:01.381659 - Agent started
+2026-03-27 11:40:02.427357 - CPU usage: 0.0%
+2026-03-27 11:40:02.458315 - nginx is already running
+2026-03-27 11:41:02.035251 - Agent started
+2026-03-27 11:41:03.046679 - CPU usage: 0.0%
+2026-03-27 11:41:03.053468 - nginx is already running
+2026-03-27 11:42:01.656795 - Agent started
+2026-03-27 11:42:02.667384 - CPU usage: 0.2%
+2026-03-27 11:42:02.680945 - nginx is already running
+2026-03-27 11:43:01.274437 - Agent started
+2026-03-27 11:43:02.280036 - CPU usage: 0.0%
+2026-03-27 11:43:02.306352 - nginx is already running
+2026-03-27 11:44:01.911751 - Agent started
+2026-03-27 11:44:02.930568 - CPU usage: 0.2%
+2026-03-27 11:44:02.937558 - nginx is already running
+2026-03-27 11:45:01.533353 - Agent started
+2026-03-27 11:45:02.562042 - CPU usage: 0.0%
+2026-03-27 11:45:02.588890 - nginx is already running
+2026-03-27 11:46:01.203026 - Agent started
+2026-03-27 11:46:02.205112 - CPU usage: 0.0%
+2026-03-27 11:46:02.218954 - nginx is already running
+2026-03-27 11:47:01.831125 - Agent started
+2026-03-27 11:47:02.866100 - CPU usage: 0.0%
+2026-03-27 11:47:02.879193 - nginx is already running
+2026-03-27 11:48:01.389177 - Agent started
+2026-03-27 11:48:02.390661 - CPU usage: 0.5%
+2026-03-27 11:48:02.411460 - nginx is already running
+2026-03-27 11:49:02.044248 - Agent started
+2026-03-27 11:49:03.080402 - CPU usage: 0.2%
+2026-03-27 11:49:03.093171 - nginx is already running
+2026-03-27 11:50:01.707112 - Agent started
+2026-03-27 11:50:02.736852 - CPU usage: 0.0%
+2026-03-27 11:50:02.793103 - nginx is already running
+2026-03-27 11:51:01.336777 - Agent started
+2026-03-27 11:51:02.354568 - CPU usage: 0.0%
+2026-03-27 11:51:02.371791 - nginx is already running
+2026-03-27 11:52:01.924716 - Agent started
+2026-03-27 11:52:02.932001 - CPU usage: 0.0%
+2026-03-27 11:52:02.957186 - nginx is already running
+2026-03-27 11:53:00.275326 - Agent started
+2026-03-27 11:52:59.533344 - CPU usage: 2.0%
+2026-03-27 11:52:59.560761 - nginx is already running
+2026-03-27 11:52:59.638991 - Agent started
+2026-03-27 11:53:00.686382 - CPU usage: 0.2%
+2026-03-27 11:53:00.704988 - nginx is already running
+2026-03-27 11:53:00.775525 - Agent started
+2026-03-27 11:53:01.781244 - CPU usage: 0.0%
+2026-03-27 11:53:01.811836 - nginx is already running
+2026-03-27 11:54:00.117376 - Agent started
+2026-03-27 11:54:01.136433 - CPU usage: 0.2%
+2026-03-27 11:54:01.142958 - nginx is already running
+2026-03-27 11:55:01.725147 - Agent started
+2026-03-27 11:55:00.955863 - CPU usage: 2.2%
+2026-03-27 11:55:00.983739 - nginx is already running
+2026-03-27 11:56:00.320217 - Agent started
+2026-03-27 11:56:01.325963 - CPU usage: 0.0%
+2026-03-27 11:56:01.334902 - nginx is already running
+2026-03-27 11:57:01.903098 - Agent started
+2026-03-27 11:57:02.927646 - CPU usage: 0.2%
+2026-03-27 11:57:02.935091 - nginx is already running
+2026-03-27 11:58:01.469622 - Agent started
+2026-03-27 11:58:02.503178 - CPU usage: 0.2%
+2026-03-27 11:58:02.518334 - nginx is already running
+2026-03-27 11:59:02.052549 - Agent started
+2026-03-27 11:59:03.055875 - CPU usage: 0.0%
+2026-03-27 11:59:03.067824 - nginx is already running
+2026-03-27 12:00:01.585431 - Agent started
+2026-03-27 12:00:02.610445 - CPU usage: 0.2%
+2026-03-27 12:00:02.628847 - nginx is already running
+2026-03-27 12:01:01.189578 - Agent started
+2026-03-27 12:01:02.198191 - CPU usage: 0.5%
+2026-03-27 12:01:02.208374 - nginx is already running
+2026-03-27 12:02:01.747750 - Agent started
+2026-03-27 12:02:02.762799 - CPU usage: 0.0%
+2026-03-27 12:02:02.772506 - nginx is already running
+2026-03-27 12:03:01.341100 - Agent started
+2026-03-27 12:03:02.364954 - CPU usage: 0.0%
+2026-03-27 12:03:02.372409 - nginx is already running
+2026-03-27 12:04:01.861730 - Agent started
+2026-03-27 12:04:02.905021 - CPU usage: 0.0%
+2026-03-27 12:04:02.913456 - nginx is already running
+2026-03-27 12:05:01.493366 - Agent started
+2026-03-27 12:05:02.500231 - CPU usage: 1.0%
+2026-03-27 12:05:02.527628 - nginx is already running
+2026-03-27 12:06:02.065490 - Agent started
+2026-03-27 12:06:03.070191 - CPU usage: 0.0%
+2026-03-27 12:06:03.077248 - nginx is already running
+2026-03-27 12:07:01.632579 - Agent started
+2026-03-27 12:07:02.649049 - CPU usage: 0.0%
+2026-03-27 12:07:02.662112 - nginx is already running
+2026-03-27 12:08:01.172805 - Agent started
+2026-03-27 12:08:02.196236 - CPU usage: 0.2%
+2026-03-27 12:08:02.210118 - nginx is already running
+2026-03-27 12:09:01.699921 - Agent started
+2026-03-27 12:09:02.705012 - CPU usage: 0.2%
+2026-03-27 12:09:02.724778 - nginx is already running
+2026-03-27 12:10:01.258245 - Agent started
+2026-03-27 12:10:02.288871 - CPU usage: 0.0%
+2026-03-27 12:10:02.312875 - nginx is already running
+2026-03-27 12:11:01.834630 - Agent started
+2026-03-27 12:11:02.850445 - CPU usage: 0.2%
+2026-03-27 12:11:02.857474 - nginx is already running
+2026-03-27 12:12:01.434198 - Agent started
+2026-03-27 12:12:02.452032 - CPU usage: 0.2%
+2026-03-27 12:12:02.478697 - nginx is already running
+2026-03-27 12:13:02.017388 - Agent started
+2026-03-27 12:13:03.027198 - CPU usage: 0.2%
+2026-03-27 12:13:03.048932 - nginx is already running
+2026-03-27 12:14:01.564072 - Agent started
+2026-03-27 12:14:02.573727 - CPU usage: 0.0%
+2026-03-27 12:14:02.593239 - nginx is already running
+2026-03-27 12:15:01.202555 - Agent started
+2026-03-27 12:15:02.212858 - CPU usage: 0.5%
+2026-03-27 12:15:02.220196 - nginx is already running
+2026-03-27 12:16:01.773703 - Agent started
+2026-03-27 12:16:02.785028 - CPU usage: 0.0%
+2026-03-27 12:16:02.811890 - nginx is already running
+2026-03-27 12:17:01.358243 - Agent started
+2026-03-27 12:17:02.367417 - CPU usage: 0.2%
+2026-03-27 12:17:02.376780 - nginx is already running
+2026-03-27 12:18:01.855750 - Agent started
+2026-03-27 12:18:02.857809 - CPU usage: 0.2%
+2026-03-27 12:18:02.875378 - nginx is already running
+2026-03-27 12:19:01.444008 - Agent started
+2026-03-27 12:19:02.466666 - CPU usage: 0.2%
+2026-03-27 12:19:02.486690 - nginx is already running
+2026-03-27 12:20:02.037633 - Agent started
+2026-03-27 12:20:03.041278 - CPU usage: 0.7%
+2026-03-27 12:20:03.068056 - nginx is already running
+2026-03-27 12:21:01.565357 - Agent started
+2026-03-27 12:21:02.625579 - CPU usage: 0.2%
+2026-03-27 12:21:02.651525 - nginx is already running
+2026-03-27 12:22:01.177863 - Agent started
+2026-03-27 12:22:02.202312 - CPU usage: 0.2%
+2026-03-27 12:22:02.237380 - nginx is already running
+2026-03-27 12:23:01.815114 - Agent started
+2026-03-27 12:23:02.821754 - CPU usage: 0.2%
+2026-03-27 12:23:02.838886 - nginx is already running
+2026-03-27 12:24:01.422176 - Agent started
+2026-03-27 12:24:02.434201 - CPU usage: 0.2%
+2026-03-27 12:24:02.467519 - nginx is already running
+2026-03-27 12:25:02.069086 - Agent started
+2026-03-27 12:25:03.078641 - CPU usage: 5.7%
+2026-03-27 12:25:03.093917 - nginx is already running
+2026-03-27 12:26:01.615704 - Agent started
+2026-03-27 12:26:02.625203 - CPU usage: 0.2%
+2026-03-27 12:26:02.647076 - nginx is already running
+2026-03-27 12:27:00.195051 - Agent started
+2026-03-27 12:27:01.234425 - CPU usage: 0.0%
+2026-03-27 12:27:01.262394 - nginx is already running
+2026-03-27 12:28:01.584691 - Agent started
+2026-03-27 12:28:00.784714 - CPU usage: 1.0%
+2026-03-27 12:28:00.793439 - nginx is already running
+2026-03-27 12:29:00.110913 - Agent started
+2026-03-27 12:29:01.122751 - CPU usage: 0.2%
+2026-03-27 12:29:01.130688 - nginx is already running
+2026-03-27 12:30:01.671420 - Agent started
+2026-03-27 12:30:02.677928 - CPU usage: 0.0%
+2026-03-27 12:30:02.731993 - nginx is NOT running >> fixing...
+2026-03-27 12:30:04.971724 - Playbook executed
+2026-03-27 12:31:00.372411 - Agent started
+2026-03-27 12:31:01.376501 - CPU usage: 0.3%
+2026-03-27 12:31:01.420636 - nginx is already running
+2026-03-27 12:32:01.957122 - Agent started
+2026-03-27 12:32:02.963241 - CPU usage: 0.0%
+2026-03-27 12:32:02.970444 - nginx is already running
+2026-03-27 12:33:01.461808 - Agent started
+2026-03-27 12:33:02.484370 - CPU usage: 0.0%
+2026-03-27 12:33:02.491175 - nginx is already running
+2026-03-28 10:48:01.781169 - Agent started
+2026-03-28 10:48:02.790332 - CPU usage: 0.0%
+2026-03-28 10:48:02.798022 - nginx is already running
+2026-03-28 10:48:24.710543 - Agent started
+2026-03-28 10:48:25.717469 - CPU usage: 0.2%
+2026-03-28 10:48:25.727023 - nginx is already running
+2026-03-28 10:49:00.654637 - Agent started
+2026-03-28 10:49:01.665469 - CPU usage: 0.2%
+2026-03-28 10:49:01.688207 - nginx is already running
+2026-03-28 10:50:00.633011 - Agent started
+2026-03-28 10:50:01.635367 - CPU usage: 0.2%
+2026-03-28 10:50:01.642475 - nginx is already running
+2026-03-28 10:50:47.605347 - Agent started
+2026-03-28 10:50:48.610958 - CPU usage: 0.0%
+2026-03-28 10:50:48.628784 - nginx is already running
+2026-03-28 10:51:00.337670 - Agent started
+2026-03-28 10:51:01.367657 - CPU usage: 0.2%
+2026-03-28 10:51:01.392461 - nginx is already running
+2026-03-28 10:52:00.778266 - Agent started
+2026-03-28 10:52:01.054041 - CPU usage: 1.0%
+2026-03-28 10:52:01.066530 - nginx is already running
+2026-03-28 10:53:00.424856 - Agent started
+2026-03-28 10:53:01.426465 - CPU usage: 0.2%
+2026-03-28 10:53:01.439115 - nginx is already running
+2026-03-28 10:54:00.107228 - Agent started
+2026-03-28 10:54:01.119722 - CPU usage: 0.0%
+2026-03-28 10:54:01.126002 - nginx is already running
+2026-03-28 10:55:01.853892 - Agent started
+2026-03-28 10:55:02.855420 - CPU usage: 0.2%
+2026-03-28 10:55:02.867309 - nginx is already running
+2026-03-28 10:56:00.504812 - Agent started
+2026-03-28 10:56:01.505567 - CPU usage: 0.5%
+2026-03-28 10:56:01.512065 - nginx is already running
+2026-03-28 10:57:00.253252 - Agent started
+2026-03-28 10:57:01.256608 - CPU usage: 2.5%
+2026-03-28 10:57:01.301930 - nginx is already running
+2026-03-28 10:58:02.037873 - Agent started
+2026-03-28 10:58:03.043983 - CPU usage: 0.0%
+2026-03-28 10:58:03.071906 - nginx is already running
+2026-03-28 10:59:01.759926 - Agent started
+2026-03-28 10:59:02.772366 - CPU usage: 0.2%
+2026-03-28 10:59:02.780950 - nginx is already running
+2026-03-28 11:00:00.453989 - Agent started
+2026-03-28 11:00:01.457339 - CPU usage: 0.5%
+2026-03-28 11:00:01.464141 - nginx is already running
+2026-03-28 11:01:00.146213 - Agent started
+2026-03-28 11:01:01.152562 - CPU usage: 0.2%
+2026-03-28 11:01:01.177988 - nginx is already running
+2026-03-28 11:02:00.612959 - Agent started
+2026-03-28 11:02:00.901809 - CPU usage: 1.7%
+2026-03-28 11:02:00.910407 - nginx is already running
+2026-03-28 11:03:01.327485 - Agent started
+2026-03-28 11:03:02.334202 - CPU usage: 0.0%
+2026-03-28 11:03:02.346570 - nginx is already running
+2026-03-28 11:04:01.839059 - Agent started
+2026-03-28 11:04:02.841484 - CPU usage: 1.0%
+2026-03-28 11:04:02.851841 - nginx is already running
+2026-03-28 11:05:00.545266 - Agent started
+2026-03-28 11:05:01.563022 - CPU usage: 0.0%
+2026-03-28 11:05:01.590439 - nginx is already running
+2026-03-28 11:06:00.237628 - Agent started
+2026-03-28 11:06:01.239087 - CPU usage: 0.0%
+2026-03-28 11:06:01.246224 - nginx is NOT running >> fixing...
+2026-03-28 11:06:06.301535 - Playbook executed
+2026-03-28 11:07:02.028933 - Agent started
+2026-03-28 11:07:03.036475 - CPU usage: 0.2%
+2026-03-28 11:07:03.108788 - nginx is already running
+2026-03-28 11:08:01.582937 - Agent started
+2026-03-28 11:08:02.586989 - CPU usage: 0.0%
+2026-03-28 11:08:02.594378 - nginx is already running
+2026-03-28 11:09:00.178500 - Agent started
+2026-03-28 11:09:01.186915 - CPU usage: 0.2%
+2026-03-28 11:09:01.199376 - nginx is already running
+2026-03-28 11:10:01.758340 - Agent started
+2026-03-28 11:10:02.762821 - CPU usage: 0.0%
+2026-03-28 11:10:02.774954 - nginx is already running
+2026-03-28 11:11:00.229715 - Agent started
+2026-03-28 11:11:01.232628 - CPU usage: 0.0%
+2026-03-28 11:11:01.246616 - nginx is already running
+2026-03-28 11:12:01.656344 - Agent started
+2026-03-28 11:12:02.658113 - CPU usage: 0.2%
+2026-03-28 11:12:02.671035 - nginx is already running
+2026-03-28 11:13:00.994893 - Agent started
+2026-03-28 11:13:01.997125 - CPU usage: 0.2%
+2026-03-28 11:13:02.009994 - nginx is already running
+2026-03-28 11:14:01.556590 - Agent started
+2026-03-28 11:14:02.570854 - CPU usage: 0.0%
+2026-03-28 11:14:02.579496 - nginx is already running
+2026-03-28 11:15:00.073726 - Agent started
+2026-03-28 11:15:01.078139 - CPU usage: 0.0%
+2026-03-28 11:15:01.087225 - nginx is already running
+2026-03-28 11:16:01.528576 - Agent started
+2026-03-28 11:16:02.552629 - CPU usage: 0.0%
+2026-03-28 11:16:02.559126 - nginx is already running
+2026-03-28 11:17:01.997792 - Agent started
+2026-03-28 11:17:03.004414 - CPU usage: 0.0%
+2026-03-28 11:17:03.017435 - nginx is already running
+2026-03-28 11:18:01.469539 - Agent started
+2026-03-28 11:18:02.477478 - CPU usage: 0.2%
+2026-03-28 11:18:02.490456 - nginx is already running
+2026-03-28 11:19:01.780232 - Agent started
+2026-03-28 11:19:02.782838 - CPU usage: 0.2%
+2026-03-28 11:19:02.794807 - nginx is already running
+2026-03-28 11:20:00.247697 - Agent started
+2026-03-28 11:20:01.250629 - CPU usage: 0.2%
+2026-03-28 11:20:01.263512 - nginx is already running
+2026-03-28 11:21:01.648028 - Agent started
+2026-03-28 11:21:02.655338 - CPU usage: 0.2%
+2026-03-28 11:21:02.677207 - nginx is already running
+2026-03-28 11:22:01.930294 - Agent started
+2026-03-28 11:22:02.935713 - CPU usage: 0.0%
+2026-03-28 11:22:02.945427 - nginx is already running
+2026-03-28 11:23:00.347211 - Agent started
+2026-03-28 11:23:01.366802 - CPU usage: 0.0%
+2026-03-28 11:23:01.373178 - nginx is already running
+2026-03-28 11:24:00.608284 - Agent started
+2026-03-28 11:24:01.620287 - CPU usage: 0.2%
+2026-03-28 11:24:01.633773 - nginx is already running
+2026-03-28 11:25:02.092265 - Agent started
+2026-03-28 11:25:03.099105 - CPU usage: 0.0%
+2026-03-28 11:25:03.142870 - nginx is already running
+2026-03-28 11:26:01.465436 - Agent started
+2026-03-28 11:26:02.475953 - CPU usage: 0.0%
+2026-03-28 11:26:02.486225 - nginx is already running
+2026-03-28 11:27:01.841529 - Agent started
+2026-03-28 11:27:02.849158 - CPU usage: 0.2%
+2026-03-28 11:27:02.859781 - nginx is already running
+2026-03-28 11:28:00.139272 - Agent started
+2026-03-28 11:28:01.170637 - CPU usage: 0.2%
+2026-03-28 11:28:01.197819 - nginx is already running
+2026-03-28 11:29:01.522684 - Agent started
+2026-03-28 11:29:02.531689 - CPU usage: 0.2%
+2026-03-28 11:29:02.541417 - nginx is already running
+2026-03-28 11:30:01.939201 - Agent started
+2026-03-28 11:30:02.944191 - CPU usage: 0.0%
+2026-03-28 11:30:02.971623 - nginx is already running
+2026-03-28 11:31:01.372881 - Agent started
+2026-03-28 11:31:02.374737 - CPU usage: 0.3%
+2026-03-28 11:31:02.391360 - nginx is already running
+2026-03-28 11:32:01.692369 - Agent started
+2026-03-28 11:32:02.694736 - CPU usage: 0.0%
+2026-03-28 11:32:02.727912 - nginx is already running
+2026-03-28 11:33:00.098131 - Agent started
+2026-03-28 11:33:01.105981 - CPU usage: 0.0%
+2026-03-28 11:33:01.142612 - nginx is already running
+2026-03-28 11:34:01.429720 - Agent started
+2026-03-28 11:34:02.436421 - CPU usage: 0.0%
+2026-03-28 11:34:02.473193 - nginx is already running
+2026-03-28 11:35:00.685586 - Agent started
+2026-03-28 11:35:00.809292 - CPU usage: 2.0%
+2026-03-28 11:35:00.848851 - nginx is already running
+2026-03-28 11:36:01.063894 - Agent started
+2026-03-28 11:36:02.069840 - CPU usage: 0.2%
+2026-03-28 11:36:02.105386 - nginx is already running
+2026-03-28 11:37:01.441958 - Agent started
+2026-03-28 11:37:02.443867 - CPU usage: 0.5%
+2026-03-28 11:37:02.479831 - nginx is already running
+2026-03-28 11:38:01.782658 - Agent started
+2026-03-28 11:38:02.791602 - CPU usage: 0.0%
+2026-03-28 11:38:02.826571 - nginx is already running
+2026-03-28 11:39:00.136013 - Agent started
+2026-03-28 11:39:01.149223 - CPU usage: 0.0%
+2026-03-28 11:39:01.187207 - nginx is already running
+2026-03-28 11:40:01.529952 - Agent started
+2026-03-28 11:40:02.531195 - CPU usage: 0.3%
+2026-03-28 11:40:02.566713 - nginx is already running
+2026-03-28 11:41:01.878076 - Agent started
+2026-03-28 11:41:02.881892 - CPU usage: 0.0%
+2026-03-28 11:41:02.894809 - nginx is already running
+2026-03-28 11:42:00.203604 - Agent started
+2026-03-28 11:42:01.221887 - CPU usage: 0.0%
+2026-03-28 11:42:01.259470 - nginx is already running
+2026-03-28 11:43:01.583685 - Agent started
+2026-03-28 11:43:02.587203 - CPU usage: 0.0%
+2026-03-28 11:43:02.597934 - nginx is already running
+2026-03-28 11:44:01.927471 - Agent started
+2026-03-28 11:44:02.943982 - CPU usage: 0.0%
+2026-03-28 11:44:02.982490 - nginx is already running
+2026-03-28 11:45:01.260726 - Agent started
+2026-03-28 11:45:02.265414 - CPU usage: 0.0%
+2026-03-28 11:45:02.273244 - nginx is already running
+2026-03-28 11:46:01.586810 - Agent started
+2026-03-28 11:46:02.591150 - CPU usage: 0.2%
+2026-03-28 11:46:02.626631 - nginx is already running
+2026-03-28 11:47:00.768802 - Agent started
+2026-03-28 11:47:00.862711 - CPU usage: 1.8%
+2026-03-28 11:47:00.898973 - nginx is already running
+2026-03-28 11:48:01.119994 - Agent started
+2026-03-28 11:48:02.122079 - CPU usage: 0.8%
+2026-03-28 11:48:02.142224 - nginx is already running
+2026-03-28 11:49:01.487097 - Agent started
+2026-03-28 11:49:02.496230 - CPU usage: 0.0%
+2026-03-28 11:49:02.553102 - nginx is already running
+2026-03-28 11:50:01.455102 - Agent started
+2026-03-28 11:50:02.457404 - CPU usage: 0.2%
+2026-03-28 11:50:02.495943 - nginx is already running
+2026-03-28 11:51:01.818720 - Agent started
+2026-03-28 11:51:02.829939 - CPU usage: 0.0%
+2026-03-28 11:51:02.840639 - nginx is already running
+2026-03-28 11:52:00.387202 - Agent started
+2026-03-28 11:52:01.408618 - CPU usage: 0.2%
+2026-03-28 11:52:01.519542 - nginx is already running
+2026-03-28 11:53:00.806801 - Agent started
+2026-03-28 11:53:00.910219 - CPU usage: 4.7%
+2026-03-28 11:53:00.943025 - nginx is already running
+2026-03-28 11:54:01.292400 - Agent started
+2026-03-28 11:54:02.302295 - CPU usage: 0.2%
+2026-03-28 11:54:02.318967 - nginx is already running
+2026-03-28 11:55:01.779529 - Agent started
+2026-03-28 11:55:02.785388 - CPU usage: 0.2%
+2026-03-28 11:55:02.849177 - nginx is NOT running >> fixing...
+2026-03-28 11:55:07.021159 - Playbook executed
+2026-03-28 11:56:00.500684 - Agent started
+2026-03-28 11:56:01.518911 - CPU usage: 0.2%
+2026-03-28 11:56:01.618857 - nginx is already running
+2026-03-28 11:57:02.011859 - Agent started
+2026-03-28 11:57:03.015542 - CPU usage: 1.0%
+2026-03-28 11:57:03.027593 - nginx is already running
+2026-03-28 11:58:01.287243 - Agent started
+2026-03-28 11:58:02.309249 - CPU usage: 0.2%
+2026-03-28 11:58:02.328016 - nginx is already running
+2026-03-28 11:59:01.585613 - Agent started
+2026-03-28 11:59:02.604460 - CPU usage: 0.5%
+2026-03-28 11:59:02.619463 - nginx is already running
+2026-03-28 12:00:01.956262 - Agent started
+2026-03-28 12:00:02.967101 - CPU usage: 0.2%
+2026-03-28 12:00:03.003253 - nginx is already running
+2026-03-28 12:01:01.303563 - Agent started
+2026-03-28 12:01:02.305136 - CPU usage: 1.0%
+2026-03-28 12:01:02.333258 - nginx is already running
+2026-03-28 12:02:01.541065 - Agent started
+2026-03-28 12:02:02.550454 - CPU usage: 0.2%
+2026-03-28 12:02:02.564143 - nginx is already running
+2026-03-28 12:03:01.849268 - Agent started
+2026-03-28 12:03:02.852674 - CPU usage: 0.3%
+2026-03-28 12:03:02.866311 - nginx is already running
+2026-03-28 12:04:01.065958 - Agent started
+2026-03-28 12:04:02.073857 - CPU usage: 0.2%
+2026-03-28 12:04:02.109835 - nginx is already running
+2026-03-28 12:05:02.023253 - Agent started
+2026-03-28 12:05:03.024607 - CPU usage: 0.0%
+2026-03-28 12:05:03.033250 - nginx is already running
+2026-03-28 12:06:01.330419 - Agent started
+2026-03-28 12:06:02.336510 - CPU usage: 0.2%
+2026-03-28 12:06:02.350582 - nginx is already running
+2026-03-28 12:07:01.635007 - Agent started
+2026-03-28 12:07:02.662903 - CPU usage: 0.5%
+2026-03-28 12:07:02.704516 - nginx is already running
+2026-03-28 12:08:02.109608 - Agent started
+2026-03-28 12:08:03.111662 - CPU usage: 0.2%
+2026-03-28 12:08:03.157431 - nginx is NOT running >> fixing...
+2026-03-28 12:08:07.229169 - Playbook executed
+2026-03-28 12:09:01.555916 - Agent started
+2026-03-28 12:09:02.571977 - CPU usage: 0.0%
+2026-03-28 12:09:02.585982 - nginx is already running
+2026-03-28 12:10:01.986053 - Agent started
+2026-03-28 12:10:02.989109 - CPU usage: 0.0%
+2026-03-28 12:10:03.027762 - nginx is already running
+2026-03-28 12:11:00.273800 - Agent started
+2026-03-28 12:11:00.336914 - CPU usage: 0.7%
+2026-03-28 12:11:00.374737 - nginx is already running
+2026-03-28 12:12:00.599194 - Agent started
+2026-03-28 12:12:01.601312 - CPU usage: 0.7%
+2026-03-28 12:12:01.628978 - nginx is NOT running >> fixing...
+2026-03-28 12:12:05.319859 - Playbook executed
+2026-03-28 12:13:00.534498 - Agent started
+2026-03-28 12:13:01.543553 - CPU usage: 0.0%
+2026-03-28 12:13:01.595874 - nginx is already running
+2026-03-28 12:14:01.942033 - Agent started
+2026-03-28 12:14:02.951446 - CPU usage: 0.0%
+2026-03-28 12:14:02.987193 - nginx is NOT running >> fixing...
+2026-03-28 12:14:06.874809 - Playbook executed
+2026-03-28 12:15:00.129216 - Agent started
+2026-03-28 12:15:01.159260 - CPU usage: 0.0%
+2026-03-28 12:15:01.182101 - nginx is already running
+2026-03-28 12:16:01.468726 - Agent started
+2026-03-28 12:16:02.472538 - CPU usage: 0.0%
+2026-03-28 12:16:02.498204 - nginx is already running
+2026-03-28 12:17:01.741023 - Agent started
+2026-03-28 12:17:02.746918 - CPU usage: 0.0%
+2026-03-28 12:17:02.762959 - nginx is already running
+2026-03-28 12:18:02.016268 - Agent started
+2026-03-28 12:18:03.019970 - CPU usage: 0.3%
+2026-03-28 12:18:03.055091 - nginx is already running
+2026-03-28 12:19:01.516126 - Agent started
+2026-03-28 12:19:02.551149 - CPU usage: 0.0%
+2026-03-28 12:19:02.610182 - nginx is already running
+2026-03-28 12:20:01.869200 - Agent started
+2026-03-28 12:20:02.875519 - CPU usage: 0.2%
+2026-03-28 12:20:02.966032 - nginx is already running
+2026-03-28 12:21:00.237997 - Agent started
+2026-03-28 12:21:01.240705 - CPU usage: 0.3%
+2026-03-28 12:21:01.267921 - nginx is already running
+2026-03-28 12:22:00.521288 - Agent started
+2026-03-28 12:22:01.529946 - CPU usage: 0.0%
+2026-03-28 12:22:01.567529 - nginx is already running
+2026-03-28 12:23:01.551684 - Agent started
+2026-03-28 12:23:02.561553 - CPU usage: 0.0%
+2026-03-28 12:23:02.648625 - nginx is already running
+2026-03-28 12:24:01.923176 - Agent started
+2026-03-28 12:24:02.928456 - CPU usage: 0.2%
+2026-03-28 12:24:02.942725 - nginx is already running
+2026-03-28 12:25:00.204283 - Agent started
+2026-03-28 12:25:01.212240 - CPU usage: 0.5%
+2026-03-28 12:25:01.248326 - nginx is already running
+2026-03-28 12:26:01.536638 - Agent started
+2026-03-28 12:26:02.552615 - CPU usage: 0.2%
+2026-03-28 12:26:02.590656 - nginx is already running
+2026-03-28 12:27:01.921833 - Agent started
+2026-03-28 12:27:02.925928 - CPU usage: 0.5%
+2026-03-28 12:27:02.960545 - nginx is already running
+2026-03-28 12:28:00.246543 - Agent started
+2026-03-28 12:28:01.251775 - CPU usage: 0.2%
+2026-03-28 12:28:01.285327 - nginx is already running
+2026-03-28 12:29:00.468442 - Agent started
+2026-03-28 12:29:00.529539 - CPU usage: 2.0%
+2026-03-28 12:29:00.565713 - nginx is already running
+2026-03-28 12:30:00.780194 - Agent started
+2026-03-28 12:30:01.781724 - CPU usage: 0.3%
+2026-03-28 12:30:01.812172 - nginx is already running
+2026-03-28 12:31:02.239503 - Agent started
+2026-03-28 12:31:03.246041 - CPU usage: 0.2%
+2026-03-28 12:31:03.325609 - nginx is already running
+2026-03-28 12:32:01.556790 - Agent started
+2026-03-28 12:32:02.571712 - CPU usage: 0.0%
+2026-03-28 12:32:02.582704 - nginx is already running
+2026-03-28 21:58:01.636575 - Agent started
+2026-03-28 21:58:02.637723 - CPU usage: 0.0%
+2026-03-28 21:58:02.643923 - nginx is already running
+2026-03-28 21:59:01.761810 - Agent started
+2026-03-28 21:59:02.767972 - CPU usage: 0.2%
+2026-03-28 21:59:02.780648 - nginx is already running
+2026-03-28 21:59:23.560077 - Agent started
+2026-03-28 21:59:24.600296 - CPU usage: 0.2%
+2026-03-28 21:59:24.626515 - nginx is already running
+2026-03-28 22:00:01.941129 - Agent started
+2026-03-28 22:00:02.964081 - CPU usage: 0.2%
+2026-03-28 22:00:02.980290 - nginx is already running
+2026-03-28 22:01:01.450676 - Agent started
+2026-03-28 22:01:02.452483 - CPU usage: 0.2%
+2026-03-28 22:01:02.475532 - nginx is already running
+2026-03-28 22:02:01.545949 - Agent started
+2026-03-28 22:02:02.552566 - CPU usage: 0.0%
+2026-03-28 22:02:02.562605 - nginx is already running
+2026-03-28 22:03:01.709581 - Agent started
+2026-03-28 22:03:02.710969 - CPU usage: 0.0%
+2026-03-28 22:03:02.718304 - nginx is already running
+2026-03-28 22:06:01.642888 - Agent started
+2026-03-28 22:06:02.644072 - CPU usage: 0.2%
+2026-03-28 22:06:02.654165 - nginx is already running
+2026-03-28 22:07:01.969927 - Agent started
+2026-03-28 22:07:03.011954 - CPU usage: 0.0%
+2026-03-28 22:07:03.021247 - nginx is already running
+2026-03-28 22:07:50.575356 - Agent started
+2026-03-28 22:07:51.575930 - CPU usage: 0.0%
+2026-03-28 22:07:51.585339 - nginx is already running
+2026-03-28 22:08:01.309030 - Agent started
+2026-03-28 22:08:02.337722 - CPU usage: 0.0%
+2026-03-28 22:08:02.349240 - nginx is already running
+2026-03-28 22:09:01.686246 - Agent started
+2026-03-28 22:09:02.696489 - CPU usage: 1.2%
+2026-03-28 22:09:02.709172 - nginx is already running
+2026-03-28 22:10:02.093871 - Agent started
+2026-03-28 22:10:03.129367 - CPU usage: 0.2%
+2026-03-28 22:10:03.141377 - nginx is already running
+2026-03-28 22:11:01.484531 - Agent started
+2026-03-28 22:11:02.503943 - CPU usage: 0.0%
+2026-03-28 22:11:02.511324 - nginx is already running
+2026-03-28 22:12:01.771988 - Agent started
+2026-03-28 22:12:02.781566 - CPU usage: 0.0%
+2026-03-28 22:12:02.800731 - nginx is already running
+2026-03-28 22:13:01.245805 - Agent started
+2026-03-28 22:13:02.260104 - CPU usage: 0.0%
+2026-03-28 22:13:02.281178 - nginx is already running
+2026-03-28 22:14:01.494829 - Agent started
+2026-03-28 22:14:02.500901 - CPU usage: 0.2%
+2026-03-28 22:14:02.526527 - nginx is already running
+2026-03-28 22:16:01.875971 - Agent started
+2026-03-28 22:16:02.904802 - CPU usage: 0.0%
+2026-03-28 22:16:02.916599 - nginx is already running
+2026-03-28 22:16:38.453077 - Agent started
+2026-03-28 22:16:39.454501 - CPU usage: 0.0%
+2026-03-28 22:16:39.467766 - nginx is already running
+2026-03-28 22:17:01.327481 - Agent started
+2026-03-28 22:17:02.328450 - CPU usage: 0.0%
+2026-03-28 22:17:02.339143 - nginx is already running
+2026-03-28 22:18:01.660753 - Agent started
+2026-03-28 22:18:02.671702 - CPU usage: 0.0%
+2026-03-28 22:18:02.682392 - nginx is already running
+2026-03-28 22:19:01.288587 - Agent started
+2026-03-28 22:19:02.296923 - CPU usage: 0.0%
+2026-03-28 22:19:02.306472 - nginx is already running
+2026-03-28 23:33:01.599406 - Agent started
+2026-03-28 23:33:02.602278 - CPU usage: 0.8%
+2026-03-28 23:33:02.628154 - nginx is already running
+2026-03-28 23:34:01.736066 - Agent started
+2026-03-28 23:34:02.737575 - CPU usage: 0.0%
+2026-03-28 23:34:02.764789 - nginx is already running
+2026-03-28 23:35:01.852094 - Agent started
+2026-03-28 23:35:02.853302 - CPU usage: 0.0%
+2026-03-28 23:35:02.878117 - nginx is already running
+2026-03-28 23:36:01.393506 - Agent started
+2026-03-28 23:36:01.944690 - Agent started
+2026-03-28 23:36:02.394174 - CPU usage: 1.5%
+2026-03-28 23:36:02.400954 - nginx is already running
+2026-03-28 23:36:02.945530 - CPU usage: 0.5%
+2026-03-28 23:36:02.953228 - nginx is already running
+2026-03-28 23:37:02.018447 - Agent started
+2026-03-28 23:37:03.020576 - CPU usage: 0.0%
+2026-03-28 23:37:03.046423 - nginx is already running
+2026-03-28 23:38:01.112688 - Agent started
+2026-03-28 23:38:02.114395 - CPU usage: 0.0%
+2026-03-28 23:38:02.126837 - nginx is already running
+2026-03-28 23:39:01.210596 - Agent started
+2026-03-28 23:39:02.212139 - CPU usage: 0.0%
+2026-03-28 23:39:02.238826 - nginx is already running
+2026-03-28 23:40:01.297839 - Agent started
+2026-03-28 23:40:02.299426 - CPU usage: 0.2%
+2026-03-28 23:40:02.308732 - nginx is already running
+2026-03-28 23:41:01.370425 - Agent started
+2026-03-28 23:41:02.370977 - CPU usage: 0.0%
+2026-03-28 23:41:02.378262 - nginx is already running
+2026-03-28 23:42:01.449004 - Agent started
+2026-03-28 23:42:02.450209 - CPU usage: 0.0%
+2026-03-28 23:42:02.461812 - nginx is already running
+2026-03-28 23:43:01.639145 - Agent started
+2026-03-28 23:43:02.642918 - CPU usage: 0.0%
+2026-03-28 23:43:02.709681 - nginx is already running
+2026-03-28 23:44:01.777413 - Agent started
+2026-03-28 23:44:02.778240 - CPU usage: 0.3%
+2026-03-28 23:44:02.788154 - nginx is already running
+2026-03-28 23:45:01.846871 - Agent started
+2026-03-28 23:45:02.848680 - CPU usage: 0.2%
+2026-03-28 23:45:02.873508 - nginx is already running
+2026-03-28 23:46:01.940983 - Agent started
+2026-03-28 23:46:02.941668 - CPU usage: 0.2%
+2026-03-28 23:46:02.950653 - nginx is already running
+2026-03-28 23:47:02.019218 - Agent started
+2026-03-28 23:47:03.021055 - CPU usage: 0.2%
+2026-03-28 23:47:03.033801 - nginx is already running
+2026-03-28 23:48:01.118615 - Agent started
+2026-03-28 23:48:02.120632 - CPU usage: 0.0%
+2026-03-28 23:48:02.149715 - nginx is already running
+2026-03-28 23:49:01.219476 - Agent started
+2026-03-28 23:49:02.221255 - CPU usage: 0.0%
+2026-03-28 23:49:02.233694 - nginx is already running
+2026-03-28 23:50:01.301789 - Agent started
+2026-03-28 23:50:02.303231 - CPU usage: 0.0%
+2026-03-28 23:50:02.315467 - nginx is already running
+2026-03-28 23:51:01.375008 - Agent started
+2026-03-28 23:51:02.376183 - CPU usage: 0.0%
+2026-03-28 23:51:02.388125 - nginx is already running
+2026-03-28 23:52:01.465759 - Agent started
+2026-03-28 23:52:02.467397 - CPU usage: 0.0%
+2026-03-28 23:52:02.481073 - nginx is already running
+2026-03-28 23:53:01.546643 - Agent started
+2026-03-28 23:53:02.548087 - CPU usage: 0.0%
+2026-03-28 23:53:02.566462 - nginx is already running
+2026-03-28 23:54:01.638912 - Agent started
+2026-03-28 23:54:02.639687 - CPU usage: 0.0%
+2026-03-28 23:54:02.646706 - nginx is already running
+2026-03-28 23:55:01.718302 - Agent started
+2026-03-28 23:55:02.719018 - CPU usage: 0.2%
+2026-03-28 23:55:02.726934 - nginx is already running
+2026-03-28 23:56:01.796511 - Agent started
+2026-03-28 23:56:02.797369 - CPU usage: 0.2%
+2026-03-28 23:56:02.806908 - nginx is already running
+2026-03-28 23:57:01.873445 - Agent started
+2026-03-28 23:57:02.873972 - CPU usage: 0.0%
+2026-03-28 23:57:02.881390 - nginx is already running
+2026-03-28 23:58:01.966767 - Agent started
+2026-03-28 23:58:02.968749 - CPU usage: 0.5%
+2026-03-28 23:58:02.993207 - nginx is already running
+2026-03-28 23:59:01.079904 - Agent started
+2026-03-28 23:59:02.080797 - CPU usage: 0.0%
+2026-03-28 23:59:02.096838 - nginx is already running
+2026-03-29 00:00:01.257940 - Agent started
+2026-03-29 00:00:02.258738 - CPU usage: 3.7%
+2026-03-29 00:00:02.266967 - nginx is already running
+2026-03-29 00:01:01.353034 - Agent started
+2026-03-29 00:01:02.354568 - CPU usage: 0.2%
+2026-03-29 00:01:02.380935 - nginx is already running
+2026-03-29 00:02:01.449077 - Agent started
+2026-03-29 00:02:02.449655 - CPU usage: 0.0%
+2026-03-29 00:02:02.457583 - nginx is already running
+2026-03-29 00:03:01.524979 - Agent started
+2026-03-29 00:03:02.525702 - CPU usage: 0.5%
+2026-03-29 00:03:02.534720 - nginx is already running
+2026-03-29 00:04:01.599231 - Agent started
+2026-03-29 00:04:02.601184 - CPU usage: 0.5%
+2026-03-29 00:04:02.628114 - nginx is already running
+2026-03-29 00:05:01.697483 - Agent started
+2026-03-29 00:05:02.699569 - CPU usage: 0.0%
+2026-03-29 00:05:02.712135 - nginx is already running
+2026-03-29 00:06:01.771936 - Agent started
+2026-03-29 00:06:02.772627 - CPU usage: 0.2%
+2026-03-29 00:06:02.780720 - nginx is already running
+2026-03-29 00:07:01.843252 - Agent started
+2026-03-29 00:07:02.844045 - CPU usage: 0.0%
+2026-03-29 00:07:02.856534 - nginx is already running
+2026-03-29 00:08:01.930512 - Agent started
+2026-03-29 00:08:02.931968 - CPU usage: 0.0%
+2026-03-29 00:08:02.955982 - nginx is already running
+2026-03-29 00:09:02.016293 - Agent started
+2026-03-29 00:09:03.017006 - CPU usage: 0.5%
+2026-03-29 00:09:03.024819 - nginx is already running
+2026-03-29 00:10:01.086283 - Agent started
+2026-03-29 00:10:02.087101 - CPU usage: 0.0%
+2026-03-29 00:10:02.096423 - nginx is already running
+2026-03-29 00:11:01.170957 - Agent started
+2026-03-29 00:11:02.172582 - CPU usage: 0.3%
+2026-03-29 00:11:02.179970 - nginx is already running
+2026-03-29 00:12:01.241800 - Agent started
+2026-03-29 00:12:02.242511 - CPU usage: 0.0%
+2026-03-29 00:12:02.252865 - nginx is already running
+2026-03-29 00:13:01.369562 - Agent started
+2026-03-29 00:13:02.371669 - CPU usage: 0.2%
+2026-03-29 00:13:02.399676 - nginx is already running
+2026-03-29 00:14:01.489072 - Agent started
+2026-03-29 00:14:02.490626 - CPU usage: 0.2%
+2026-03-29 00:14:02.513628 - nginx is already running
+2026-03-29 00:15:01.583098 - Agent started
+2026-03-29 00:15:02.583981 - CPU usage: 0.0%
+2026-03-29 00:15:02.598987 - nginx is already running
+2026-03-29 00:16:01.671278 - Agent started
+2026-03-29 00:16:02.672969 - CPU usage: 0.0%
+2026-03-29 00:16:02.685215 - nginx is already running
+2026-03-29 00:17:01.749116 - Agent started
+2026-03-29 00:17:02.750662 - CPU usage: 0.0%
+2026-03-29 00:17:02.762503 - nginx is already running
+2026-03-29 00:18:01.826377 - Agent started
+2026-03-29 00:18:02.827976 - CPU usage: 0.3%
+2026-03-29 00:18:02.840561 - nginx is already running
+2026-03-29 00:19:01.904644 - Agent started
+2026-03-29 00:19:02.906175 - CPU usage: 0.2%
+2026-03-29 00:19:02.918481 - nginx is already running
+2026-03-29 00:20:02.000280 - Agent started
+2026-03-29 00:20:03.001968 - CPU usage: 1.2%
+2026-03-29 00:20:03.027204 - nginx is already running
+2026-03-29 00:21:01.095469 - Agent started
+2026-03-29 00:21:02.097429 - CPU usage: 0.3%
+2026-03-29 00:21:02.109841 - nginx is already running

@@ -1,0 +1,8 @@
+services:
+  - name: nginx
+  - name: cron
+  - name: ssh
+
+thresholds:
+    cpu: 80
+    ram: 80
