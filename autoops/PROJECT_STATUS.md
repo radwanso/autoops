@@ -2,7 +2,7 @@
 
 ## Release status
 
-The canonical runtime was exercised on Ubuntu 24.04 under WSL2 in the tested v5 baseline. The v7 packaging pass removed unconnected legacy paths and corrected the dashboard/API scope. The v8 recovery pass fixes a permanent escalation lockout after repeated outages and resets the active failure streak after a monitored recovery. Python compilation and targeted recovery-policy checks passed; confirm the updated recovery behavior in WSL before tagging a GitHub release.
+The canonical runtime was exercised on Ubuntu 24.04 under WSL2. The v7 packaging pass removed unconnected legacy paths and corrected the dashboard/API scope. The v8 recovery pass fixes a permanent escalation lockout after repeated outages and resets the active failure streak after a monitored recovery. The owner verified Telegram alerts and nginx recovery with `RESTART_SENT` (rc=0), followed by an active service.
 
 ## Verified behavior
 
@@ -14,7 +14,7 @@ The canonical runtime was exercised on Ubuntu 24.04 under WSL2 in the tested v5 
 - The dashboard displayed service status, risk, metrics, and normalized events.
 - Python source compilation and targeted recovery-policy checks passed for this v8 candidate.
 - Mocked checks cover Telegram delivery success, API rejection, request failure, missing credentials, and the 60-second repeat cooldown.
-- Telegram notification delivery has a timeout and checks Telegram's API success response. Actual delivery still requires the user's bot token/chat ID and a one-message test on the target WSL host.
+- Telegram notification delivery has a timeout and checks Telegram's API success response. The owner confirmed actual Telegram delivery and automatic outage alerts on the target WSL host.
 
 ## Supported scope
 
@@ -26,7 +26,6 @@ The canonical runtime was exercised on Ubuntu 24.04 under WSL2 in the tested v5 
 ## Explicit limitations
 
 - The Flask development server is for local use and is not configured for internet exposure.
-- Telegram delivery has not been verified without the user's private bot credentials.
 - Manual recovery from the dashboard is not included; the dashboard is read-only.
 - The optional systemd installation manages the engine only and must not run alongside the combined local launcher.
 - Docker, distributed hosts, external databases, and a production web server are outside this release.
