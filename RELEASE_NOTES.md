@@ -23,6 +23,5 @@ This is a packaging revision for the local single-host AutoOps project, not a cl
 
 - Python compilation passed for this v8 candidate. Targeted policy checks confirm one conservative attempt is allowed and further attempts escalate; a pipeline state check confirms a recovered service clears its active failure streak.
 - Mocked sender and alert-cooldown checks passed; they do not replace a real bot delivery test.
-- The v5 baseline was exercised on Ubuntu 24.04 under WSL2: stable monitoring, recovery through a temporary unit, dashboard API/UI, and graceful launcher shutdown.
-- The owner confirmed an actual Telegram test message and automatic outage alerts were delivered. A real recovery attempt was also observed in the WSL log (`RESTART_SENT`, rc=0); the repeated-stop case exposed the permanent-lockout behavior corrected in this v8 candidate.
-- Re-run the Telegram one-message check and combined launcher/dashboard check on the extracted candidate before tagging it on GitHub. The Codex host used to prepare this archive does not have the WSL/systemd service available for that final host-specific check.
+- The owner verified this v8 candidate on Ubuntu 24.04 under WSL2: the combined launcher/dashboard ran, Telegram delivered alerts, and stopping nginx led to `RESTART_SENT` (rc=0) followed by an active service.
+- The repeated-stop test exposed a permanent-lockout behavior; the v8 recovery guard was updated and then verified with a subsequent successful recovery.
