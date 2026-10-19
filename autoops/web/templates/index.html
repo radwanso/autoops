@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoOps Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<main class="dashboard">
+    <header class="page-header">
+        <h1>🚀 AutoOps Dashboard</h1>
+        <p>Live service status and system health</p>
+    </header>
+
+    <section aria-labelledby="alerts-heading">
+        <h2 id="alerts-heading">🚨 Alert Center</h2>
+        <div id="alerts" class="cards" aria-live="polite"></div>
+    </section>
+
+    <section aria-labelledby="services-heading">
+        <h2 id="services-heading">🧠 Services</h2>
+        <div id="services" class="cards" aria-live="polite"></div>
+    </section>
+
+    <section aria-labelledby="system-heading">
+        <h2 id="system-heading">🖥 System State</h2>
+        <div class="system-card">
+            <p>CPU: <strong id="cpu">—</strong></p>
+            <p>RAM: <strong id="ram">—</strong></p>
+            <p>Disk: <strong id="disk">—</strong></p>
+        </div>
+    </section>
+
+    <section aria-labelledby="events-heading">
+        <h2 id="events-heading">📜 Events Timeline</h2>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>Time</th><th>Service</th><th>Event</th><th>Decision</th></tr>
+                </thead>
+                <tbody id="event-rows">
+                    {% for event in events|reverse %}
+                    <tr>
+                        <td>{{ event.formatted_time }}</td>
+                        <td>{{ event.service }}</td>
+                        <td>{{ event.event }}</td>
+                        <td>{{ event.decision or '—' }}</td>
+                    </tr>
+                    {% else %}
+                    <tr><td colspan="4" class="muted">No events recorded yet.</td></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <p id="dashboard-error" class="error" role="status" hidden></p>
+</main>
+
+<script>
+function addText(parent, tag, text, className = "") {
+    const element = document.createElement(tag);
+    element.textContent = text ?? "—";
+    if (className) element.className = className;
+    parent.appendChild(element);
+    return element;
+}
+
+async function refreshDashboard() {
+    const error = document.getElementById("dashboard-error");
+    try {
+        const response = await fetch("/api/state", {cache: "no-store"});
+        if (!response.ok) throw new Error(`Dashboard request failed (${response.status})`);
+        const data = await response.json();
+        const system = data.system || {};
+
+        document.getElementById("cpu").textContent = `${system.cpu ?? "—"}%`;
+        document.getElementById("ram").textContent = `${system.ram ?? "—"}%`;
+        document.getElementById("disk").textContent = `${system.disk ?? "—"}%`;
+
+        const services = document.getElementById("services");
+        services.replaceChildren();
+        for (const service of data.services || []) {
+            const status = String(service.status || "UNKNOWN").toUpperCase();
+            const card = document.createElement("article");
+            card.className = `card service-card ${status === "UP" ? "up" : "down"}`;
+            addText(card, "h3", service.name);
+            addText(card, "p", `Status: ${status}`);
+            addText(card, "p", `Mode: ${service.mode || "NORMAL"}`);
+            addText(card, "p", `Risk: ${service.risk || "UNKNOWN"}`);
+            addText(card, "p", `Last Event: ${service.last_event || "NONE"}`);
+            services.appendChild(card);
+        }
+        if (!services.children.length) addText(services, "p", "No services configured.", "muted");
+
+        const alerts = document.getElementById("alerts");
+        alerts.replaceChildren();
+        for (const alert of data.alerts || []) {
+            const card = document.createElement("article");
+            card.className = "card down";
+            addText(card, "h3", alert.service);
+            addText(card, "p", `Status: ${alert.status || "UNKNOWN"}`);
+            addText(card, "p", `Event: ${alert.event || "—"}`);
+            alerts.appendChild(card);
+        }
+        if (!alerts.children.length) addText(alerts, "p", "No active alerts.", "muted");
+
+        const eventsResponse = await fetch("/api/events", {cache: "no-store"});
+        if (!eventsResponse.ok) throw new Error(`Events request failed (${eventsResponse.status})`);
+        const events = await eventsResponse.json();
+        const rows = document.getElementById("event-rows");
+        rows.replaceChildren();
+        for (const event of events.slice(-20).reverse()) {
+            const row = document.createElement("tr");
+            const timestamp = Number(event.time);
+            const formattedTime = Number.isFinite(timestamp)
+                ? new Date(timestamp * 1000).toLocaleString()
+                : "—";
+            addText(row, "td", formattedTime);
+            addText(row, "td", event.service || "system");
+            addText(row, "td", event.event || "event");
+            addText(row, "td", event.decision || "—");
+            rows.appendChild(row);
+        }
+        if (!rows.children.length) {
+            const row = document.createElement("tr");
+            const cell = addText(row, "td", "No events recorded yet.", "muted");
+            cell.colSpan = 4;
+            rows.appendChild(row);
+        }
+        error.hidden = true;
+    } catch (exception) {
+        error.textContent = `Dashboard update failed: ${exception.message}`;
+        error.hidden = false;
+    }
+}
+
+refreshDashboard();
+setInterval(refreshDashboard, 5000);
+</script>
+</body>
+</html>

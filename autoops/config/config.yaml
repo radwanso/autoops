@@ -1,8 +1,30 @@
 services:
   - name: nginx
-  - name: cron
-  - name: ssh
+    auto_fix: true
 
-thresholds:
-    cpu: 80
-    ram: 80
+    profile:
+      criticality: medium
+      restart_threshold: 2
+      escalation_threshold: 5
+      cooldown: 30
+      max_restarts_per_hour: 10
+
+  - name: cron
+    auto_fix: true
+
+    profile:
+      criticality: low
+      restart_threshold: 5
+      escalation_threshold: 10
+      cooldown: 60
+      max_restarts_per_hour: 3
+
+  - name: ssh
+    auto_fix: true
+
+    profile:
+      criticality: high
+      restart_threshold: 2
+      escalation_threshold: 5
+      cooldown: 30
+      max_restarts_per_hour: 5
