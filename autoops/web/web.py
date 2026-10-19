@@ -1,197 +1,452 @@
-from autoops.core.core import load_config, get_system_state, is_service_running
-from flask import Flask, render_template_string, request, redirect
-import psutil
-import subprocess
+from flask import (
+    Flask,
+    jsonify,
+    render_template
+)
+
+import json
+import os
+
+from datetime import datetime
+
+from autoops.core.config import load_config
+from autoops.core.monitor import get_system_metrics, is_service_running
+
+# =========================
+# Flask App
+# =========================
+
+app = Flask(
+    __name__,
+    template_folder="templates"
+)
 
 
-app = Flask(__name__)
-project_dir ="/home/radwan/smart-it-agent"
+# =========================
+# Paths
+# =========================
+
+BASE_DIR = os.path.dirname(
+    os.path.dirname(__file__)
+)
+
+DATA_DIR = os.path.join(
+    BASE_DIR,
+    "data"
+)
+
+STATE_FILE = os.path.join(
+    DATA_DIR,
+    "state.json"
+)
+
+EVENTS_FILE = os.path.join(
+    DATA_DIR,
+    "events.json"
+)
 
 
-def is_nginx_running():
-    result = subprocess.run(["systemctl", "nginx","status" ], capture_output=True, text=True)
-    return result.stdout.strip()
+# =========================
+# Safe JSON Loader
+# =========================
 
-def get_alerts():
+def safe_load_json(path, default):
+
     try:
-        with open("/home/radwan/smart-it-agent/alerts.log", "r") as f:
-            return f.readlines()[-10:] # 10 last Alerts
-    except:
-        return []
+
+        if os.path.exists(path):
+
+            with open(path) as f:
+                return json.load(f)
+
+    except Exception as e:
+
+        print(f"[WEB LOAD ERROR] {path}: {e}")
+
+    return default
 
 
-def get_logs():
+# =========================
+# API: STATE
+# =========================
+
+@app.route("/api/state")
+def api_state():
+
+    state = safe_load_json(
+        STATE_FILE,
+        {}
+    )
+
+    stored_system = state.get("_system", {})
     try:
-        with open(f"{project_dir}/logs/agent.log") as f:
-            return f.readlines()[-10:]
-    except:
-        return []
+        live_metrics = get_system_metrics()
+    except Exception as e:
+        print(f"[SYSTEM METRICS ERROR] {e}")
+        live_metrics = {}
 
-def run_playbook():
-    subprocess.Popen([
-        "ansible-playbook",
-	"-i", f"{project_dir}/inventory/hosts.ini",
-	f"{project_dir}/playbooks/check_service.yml"
-    ])
+    system = {
+        "cpu": stored_system.get("cpu", live_metrics.get("cpu")),
+        "ram": stored_system.get("ram", live_metrics.get("memory")),
+        "disk": stored_system.get("disk", live_metrics.get("disk")),
+    }
+
+    services = []
+    alerts = []
+    configured = load_config().get("services", []) or []
+    configured_names = [
+        item.get("name") for item in configured
+        if isinstance(item, dict) and item.get("name")
+    ]
+    service_names = configured_names + [
+        name for name in state
+        if name != "_system" and name not in configured_names
+    ]
+
+    for name in service_names:
+        data = state.get(name, {})
+        if not data:
+            running = is_service_running(name)
+            data = {
+                "status": "UP" if running else "DOWN",
+                "mode": "NORMAL",
+                "risk": "UNKNOWN",
+                "history": [],
+            }
+
+        risk = data.get("risk", "LOW")
+        if isinstance(risk, dict):
+            risk = risk.get("level", "UNKNOWN")
+
+        history = data.get("history", [])
+        last_event = data.get("last_event")
+        if not last_event and history:
+            last_event = history[-1].get("event", "NONE")
+
+        status = data.get("status", "DOWN")
+
+        # ========================
+        # ALERTS
+        # ========================
+
+        if status != "UP" or risk in ("HIGH", "CRITICAL"):
+
+            alerts.append({
+
+                "service": name,
+                "status": status,
+
+                "risk": risk,
+                "event": last_event or "NONE"
+            })
+
+        # =============================
+        # SERVICES
+        # =============================
+
+        services.append({
+
+            "name": name,
+
+            "status": data.get(
+                "status",
+                "DOWN"
+            ),
+
+            "mode": data.get(
+                "mode",
+                "NORMAL"
+            ),
+
+            "risk": risk,
+
+            "last_event": last_event or "NONE",
+
+            "strategy": data.get(
+                "strategy",
+                "NORMAL"
+            )
+        })
+
+    return {
+        "system": system,
+        "services": services,
+        "alerts": alerts
+    }
 
 
+# =========================
+# API: EVENTS
+# =========================
 
+@app.route("/api/events")
+def api_events():
 
+    events = safe_load_json(
+        EVENTS_FILE,
+        []
+    )
 
+    normalized = []
+    for raw_event in events[-50:]:
+        if not isinstance(raw_event, dict):
+            continue
 
-@app.route("/fix", methods=["POST"])
-def fix():
-    service = request.form.get("service")
+        event_name = raw_event.get("event", "event")
+        service = raw_event.get("service", "system")
+        decision = raw_event.get("decision")
 
-    subprocess.Popen([
-        "ansible-playbook",
-        "-i", "/home/radwan/smart-it-agent/inventory/hosts.ini",
-        "/home/radwan/smart-it-agent/playbooks/check_service.yml",
-        "--extra-vars", f"service_name={service}"
-    ])
+        # Support old engine log records where the event name was written to
+        # `service` and the `event` field contains the complete payload.
+        if isinstance(event_name, dict):
+            payload = event_name
+            event_name = service
+            service = payload.get("service", "system")
+            decision = decision or payload.get("decision")
 
-    return redirect(f"/?status=fixing_{service}")
+        if isinstance(event_name, (dict, list)):
+            event_name = "event"
+        if isinstance(service, (dict, list)):
+            service = "system"
+        if isinstance(decision, (dict, list)):
+            decision = "—"
+
+        normalized.append({
+            "time": raw_event.get("time"),
+            "service": service,
+            "event": event_name,
+            "decision": decision,
+        })
+
+    return jsonify(normalized)
+
+# =========================
+# =
+# =========================
+@app.route("/api/timeline")
+def api_timeline():
+
+    events = safe_load_json(
+        EVENTS_FILE,
+        []
+    )
+
+    timeline = []
+
+    for e in events:
+
+        timeline.append({
+
+            "time": e.get("time"),
+
+            "message":
+                f"{e.get('service', 'system')} "
+                f"{e.get('event', 'event')} → "
+                f"{e.get('decision') or '—'}"
+
+        })
+
+    timeline.sort(
+        key=lambda x: x["time"],
+        reverse=True
+    )
+
+    return timeline[:30]
+
+# =========================
+# HEALTHY CHECK
+# =========================
+@app.route("/health")
+def health():
+
+    return {
+        "status": "healthy"
+    }
+
+# =========================
+# Dashboard
+# =========================
 
 @app.route("/")
-def home():
-    config = load_config()
-    services = config["services"]
-    service_status = []
+def index():
 
-    state = get_system_state()
-    cpu = state["cpu"]
-    ram = state["ram"]
-    disk = state["disk"]
-    service_status = []
-    for s in services:
-        name = s["name"]
-        running = is_service_running(name)
+    state = safe_load_json(
+        STATE_FILE,
+        {}
+    )
 
-        if running:
-            status_text = "Running"
+    events = safe_load_json(
+        EVENTS_FILE,
+        []
+    )
+
+    system_data = state.get("_system", {
+        "cpu": 0,
+        "ram": 0,
+        "disk": 0,
+        "health": "UNKNOWN"
+    })
+
+    services = []
+
+    system_data = state.get("_system", {})
+
+    for name, data in state.items():
+
+        if name == "_system":
+            continue
+
+        attempts = data.get(
+            "restart_attempts",
+            0
+        )
+
+        success = data.get(
+            "success_count",
+            0
+        )
+
+        fail_count = data.get(
+            "fail_count",
+            0
+        )
+
+        status = data.get(
+            "status",
+            "DOWN"
+        )
+
+        # =========================
+        # Success Rate
+        # =========================
+
+        if status != "UP":
+
+            success_rate = 0
+
+        elif attempts > 0:
+
+            success_rate = round(
+                (success / attempts) * 100,
+                1
+            )
+
         else:
-            status_text = "Stopped"
 
-        service_status.append({
-            "name" : name,
-            "status": status_text,
-            "running": running
+            success_rate = 100
+
+        # =========================
+        # Health Score
+        # =========================
+
+        if status != "UP":
+
+            health = 0
+
+        else:
+
+            health = max(
+                0,
+                100
+                - (fail_count * 15)
+                - (attempts * 5)
+            )
+
+        # =========================
+        # Stability
+        # =========================
+
+        if health >= 80:
+
+            stability = "Stable"
+
+        elif health >= 50:
+
+            stability = "Warning"
+
+        elif health >= 30:
+
+            stability = "Unstable"
+
+        else:
+
+            stability = "Critical"
+
+        services.append({
+
+            "name": name,
+
+            "status": status,
+
+            "health": health,
+
+            "stability": stability,
+
+            "fail_count": fail_count,
+
+            "restart_attempts": attempts,
+
+            "strategy": data.get(
+                "strategy",
+                "NORMAL"
+            ),
+
+            "last_event": data.get(
+                "last_event",
+                "NONE"
+            ),
+
+            "reputation": data.get(
+                "reputation",
+                0
+            ),
+
+            "mode": data.get(
+                "mode",
+                "NORMAL"
+            )
+
         })
-    logs = get_logs()
-    alerts = get_alerts()
 
-    status = request.args.get("status")
+    # =========================
+    # Format Events
+    # =========================
 
+    for event in events:
 
-    return render_template_string("""
+        try:
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>smart IT Dashboard</title>
-    <style>
-        body {
-            font-family: Arial;
-            background-color: #f4f6f9;
-            padding: 20px;
-        }
+            event["formatted_time"] = (
+                datetime.fromtimestamp(
+                    event["time"]
+                ).strftime(
+                    "%Y-%m-%d %H:%M:%S"
+                )
+            )
 
-        h1 {
-            text-align: center;
-        }
+        except Exception:
 
-        .container {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-        {% if status =="success" %}
-            <P style="color: green;"><b> Nginx fixed sucessfully</b></p>
-        {% endif %}
+            event["formatted_time"] = "UNKNOWN"
 
-        .card {
-            flex: 1;
-            padding: 20px;
-            border-radius: 10px;
-            color: white;
-            font-size: 20px;
-        }
-        .cpu {
-            bakground: #3498db;
-            padding: 15px:
-            border-radius: 10px;
-        }
-        .ram { background: #2ecc71; }
-        .disk { background: #9b59b6;  }
-        .nginx { background: #f39c12;  }
+    return render_template(
 
-        .alerts {
-            background: #fff;
-            padding: 15px;
-            border-radius: 10px;
-        }
-
-        button {
-
-            padding: 10px 20 px;
-            font-size: 16px;
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<bod>
-
-<h1> Smart IT Dashboard</h1>
-<h2>Services</h2>
-<div class="container">
-{% for s in services %}
-    <div class="card">CPU: {{cpu}}%</div>
-    <div class="card">RAM: {{ram}}%</div>
-    <div class="card">Disk: {{disk}}%</div>
-    <div class="card nginx" style="background: {% if s.running %}#2ecc71{% else %}red{% endif %};">
-        <p>{{s.name}}: {{s.status}}</p>
-        <from method="post" action="/fix">
-           <input type="hidden" name="service" value="{{s.name}}">
-           <button type="submit">Fix</button>
-        </from>
-    </div>
-    {% endfor %}
-</div>
-
-<from method="post" action="/fix">
-    <button type="submit">Fix Nginx</button>
-</from>
-<h2> Alerts</h2>
-<div class="alert">
-<pre>
-{% for alert in alerts %}
-{{alert}}
-{% endfor %}
-</pre>
-</div>
-{% if status == "fixing" %}
-    <p style="color: orange;"><b> Fix in progress...</b></p>
-{% endif %}
-
-{% if status == "success" %}
-    <p style="color: green;"><b> Nginx fixed successfully</b></p>
-{% endif %}
-
-<script>
-    setInterval(function(){
-        window.location.reload();
-    }, 5000); // every 5 second
-</script>
+        "index.html",
 
 
-</body>
-</html>
-""", cpu=cpu, ram=ram, disk=disk, services=service_status, logs=logs, status=status, alerts=alerts)
+        state=state,
+        services=services,
+        system=system_data,
+        events=events[-20:]
+    )
 
 
-#best make methods with only "POST" but just for test i can add "GET" but i should make only "POST"
-
-
+# =========================
+# Main
+# =========================
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+
+    app.run(
+        host="0.0.0.0",
+        port=5000
+    )
